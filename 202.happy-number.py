@@ -9,7 +9,8 @@
 # Easy (44.37%)
 # Total Accepted:    222.8K
 # Total Submissions: 498.4K
-# Testcase Example:  '19'
+# Te n777777
+# /9******************************1`1se Example:  '19'
 #
 # Write an algorithm to determine if a number is "happy".
 # 
@@ -39,7 +40,6 @@ class Solution:
     #         n //= 10
     #         result += cur * cur
     #     return result
-
     # def isHappy(self, n: int) -> bool:
     #     seen_num = set()
     #     while n != 1:
@@ -57,3 +57,6 @@ class Solution:
             seen.add(n)
             n = sum([int(i)**2 for i in str(n)])
         return True
+
+
+
