@@ -10,6 +10,7 @@
 #         self.left = None
 #         self.right = None
 
+
 class Solution:
     # def invertTree(self, root: TreeNode) -> TreeNode:
     #     if not root or (not root.left and not root.right):
@@ -31,4 +32,3 @@ class Solution:
             if cur.right != None:
                 q.append(cur.right)
         return root
-
