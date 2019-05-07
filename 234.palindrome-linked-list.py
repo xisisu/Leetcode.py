@@ -9,6 +9,7 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         tmp = []
@@ -16,4 +17,3 @@ class Solution:
             tmp.append(head.val)
             head = head.next
         return tmp == tmp[::-1]
-

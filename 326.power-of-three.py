@@ -3,6 +3,8 @@
 #
 # [326] Power of Three
 #
+
+
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
         while n % 3 == 0 and n > 0:

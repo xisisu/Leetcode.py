@@ -10,6 +10,7 @@
 #         self.left = None
 #         self.right = None
 
+
 class Solution:
     # def binaryTreePaths(self, root: TreeNode) -> List[str]:
     #     if not root:

@@ -3,6 +3,8 @@
 #
 # [258] Add Digits
 #
+
+
 class Solution:
     # def addDigits(self, num: int) -> int:
     #     if num < 10:
@@ -14,4 +16,3 @@ class Solution:
         while len(str(num)) > 1:
             num = sum([int(i) for i in str(num)])
         return num
-

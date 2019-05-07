@@ -3,6 +3,8 @@
 #
 # [345] Reverse Vowels of a String
 #
+
+
 class Solution:
     def reverseVowels(self, s: str) -> str:
         l, h = 0, len(s)-1
@@ -15,7 +17,6 @@ class Solution:
                 h -= 1
             else:
                 res[l], res[h] = s[h], s[l]
-                l+=1
-                h-=1
+                l += 1
+                h -= 1
         return ''.join(res)
-

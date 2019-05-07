@@ -3,6 +3,8 @@
 #
 # [290] Word Pattern
 #
+
+
 class Solution:
     def wordPattern(self, pattern: str, str: str) -> bool:
         if len(pattern) != len(str.split(' ')):
@@ -20,5 +22,3 @@ class Solution:
             elif p2w[p] != w:
                 return False
         return True
-
- 

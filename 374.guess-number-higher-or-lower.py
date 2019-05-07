@@ -8,6 +8,7 @@
 # @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
 # def guess(num):
 
+
 class Solution(object):
     def guessNumber(self, n):
         """
@@ -24,5 +25,4 @@ class Solution(object):
                 l = mid + 1
             else:
                 return mid
-        return None        
-
+        return None
