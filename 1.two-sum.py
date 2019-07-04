@@ -40,7 +40,3 @@ class Solution:
                 return [seen[val], idx]
             seen[n] = idx
         return []
-
-
-sol = Solution()
-print(sol.twoSum([2, 7, 11, 15], 9))
